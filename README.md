@@ -5,7 +5,7 @@ Bash script to convert all MOV files in the given path to mp4 and then move MOV 
 
 `./encode.sh <source-folder> <destination-folder>`
 
-Script will look for MOV files in the source folder, run ffmpeg to convert them to mp4 xvid, and then move MOV files into destination folder, creating subfolders in it, following the structure of source.
+Script will look for MOV files in the source folder, run ffmpeg to convert them to mp4 x264, and then move MOV files into destination folder, creating subfolders in it, following the structure of source.
 
 e.g.:
 
