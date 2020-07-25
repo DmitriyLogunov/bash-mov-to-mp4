@@ -1,5 +1,5 @@
 # MOV to MP4 converter script
-Bash script to convert all MOV files in the given path to mp4 and then move MOV files to another path. Use case for this script is to re-encode videos from the digital camera in bulk.
+Bash script to convert all MOV files in the provided directory and subdirectories to mp4 and then move MOV files to another path. Use case for this script is to re-encode videos from the digital camera in bulk.
 
 # Usage
 
