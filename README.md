@@ -13,6 +13,6 @@ e.g.:
 
 # Known limitation
 
-* Video source folder should be down the tree from the current directory (i.e. source cannot have ../ in the path ) and can't be an absolute path. This is because script will not be able to create matching subfolder in the destination folder.
+* Video source folder should be down the tree from current directory (i.e. source cannot have ../ in the path ) and can't be an absolute path. This is because script will not be able to create matching subfolder in the destination folder in this case.
 
 Workaround is to run this script from any folder above, or from the video source folder, or create a symlink to the source path down the directory tree and reference it instead of the real path.
