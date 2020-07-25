@@ -11,7 +11,8 @@ e.g.:
 
 `./encode.sh photos/2017 photos/mov`
 
-# Known issues
+# Known limitation
 
-* Source folder cannot be an absolute path or any path up in the tree from the current directory (i.e. having ../ in the path ). This is because script will not be able to create matching subfolder in the destination folder.
-Workaround is to create a symlink in the current directory to the desired path and reference it instead of the real path.
+* Video source folder should be down the tree from the current directory (i.e. source cannot have ../ in the path ) and can't be an absolute path. This is because script will not be able to create matching subfolder in the destination folder.
+
+Workaround is to run this script from any folder above, or from the video source folder, or create a symlink to the source path down the directory tree and reference it instead of the real path.
